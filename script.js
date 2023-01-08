@@ -101,3 +101,13 @@ searchBtn.addEventListener('click', (e) => {
   getWeatherByCity(cityField.value);
   getForecastByCity(cityField.value);
 });
+
+geolocateIcons.forEach((icon) => {
+  icon.addEventListener('click', (e) => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(geosuccess);
+    } else {
+      alert('Your browser does not support geolocation');
+    }
+  });
+});
