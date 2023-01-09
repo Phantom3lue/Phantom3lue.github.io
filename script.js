@@ -80,7 +80,7 @@ function getCityWeather(url) {
     });
 }
 function getWeatherByCoordinates(latitude, longitude) {
-  getCityWeather(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=35b1f1d45a7b4378cf2430ae601816be&units=metric`);
+  getCityWeather(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&APPID=630ae72d33e8dba960360c16e3622e2e&units=metric`);
 }
 
 function getWeatherByCity(city) {
