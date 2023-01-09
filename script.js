@@ -1,7 +1,6 @@
 const weather = document.querySelector('.weather');
 const searchBtn = document.querySelector('button[role="search"]');
 const cityField = document.querySelector('input[type="search"]');
-const forecastRow = document.querySelector('.forecast > .row');
 const dateElement = document.querySelector('.header__date');
 const geolocateIcons = document.querySelectorAll('.header__geolocate');
 
