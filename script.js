@@ -10,7 +10,7 @@ const hour = now.getHours();
 
 if(hour > 6 && hour < 18){
   document.body.style.color = "white";
-  document.body.style.color = "black";
+  document.body.style.color = "white";
   document.body.style.backgroundImage = "url('https://images.hdqwalls.com/wallpapers/forest-early-morning-zy.jpg')";
 
 }else{
